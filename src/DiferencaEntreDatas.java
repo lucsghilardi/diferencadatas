@@ -9,11 +9,14 @@ public class DiferencaEntreDatas {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
+
+
+            
             // Definindo o formato das datas
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
             // Convertendo as strings para LocalDate
-            LocalDate dataInicial = LocalDate.parse("23-03-2024", formatter);
+            LocalDate dataInicial = LocalDate.parse("23-03-2021", formatter);
             LocalDate dataFinal = LocalDate.parse("15-04-2024", formatter);
 
             // Calculando a diferença entre as datas
