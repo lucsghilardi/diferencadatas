@@ -16,7 +16,7 @@ public class DiferencaEntreDatas {
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
             // Convertendo as strings para LocalDate
-            LocalDate dataInicial = LocalDate.parse("23-03-2021", formatter);
+            LocalDate dataInicial = LocalDate.parse("23-03-2020", formatter);
             LocalDate dataFinal = LocalDate.parse("15-04-2024", formatter);
 
             // Calculando a diferença entre as datas
